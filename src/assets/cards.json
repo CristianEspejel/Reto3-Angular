@@ -1,0 +1,60 @@
+[
+  {
+    "title": "Gears of wars 2",
+    "description": "Gears of War 2 es un videojuego de disparos en tercera persona desarrollado por Epic Games y publicado por Microsoft Game Studios en 2008 para la consola Xbox 360. Es la secuela del exitoso juego Gears of War y continúa la historia de Marcus Fenix y el escuadrón Delta en su lucha contra la raza alienígena conocida como los Locust.",
+    "releaseDate": "7 de noviembre de 2008",
+    "image": "assets/images/gears.jpg",
+    "rating": 4.5,
+    "downloads": 1000,
+    "comingSoon": false
+  },
+  {
+    "title": "Banjo-Kazooie",
+    "description": "Banjo-Kazooie es un juego de plataformas en 3D que sigue las aventuras de Banjo, un oso pardo, y Kazooie, un pájaro rojo, mientras se embarcan en una misión para rescatar a la hermana de Banjo, Tooty, de las garras de la malvada bruja Gruntilda.",
+    "releaseDate": "2023-06-01",
+    "image": "assets/images/banjo.jpeg",
+    "rating": 3.8,
+    "downloads": 500,
+    "comingSoon": true
+  },
+  {
+    "title": "Dragon Ball para Xbox",
+    "description": "Dragon Ball es un juego basado en la popular franquicia de anime y manga creado por Akira Toriyama. Sumérgete en el mundo de Dragon Ball y disfruta de emocionantes batallas y personajes icónicos.",
+    "releaseDate": "Fecha de lanzamiento",
+    "image": "assets/images/dragon-ball.jpg",
+    "rating": 3.5,
+    "downloads": 10,
+    "comingSoon": true
+  },
+  {
+    "title": "Left 4 Dead",
+    "description": "Left 4 Dead es un juego de disparos en primera persona centrado en la supervivencia cooperativa. Únete a un equipo de cuatro sobrevivientes mientras luchas contra hordas de zombis sedientos de sangre y lucha por sobrevivir en un apocalipsis zombie.",
+    "releaseDate": "Fecha de lanzamiento",
+    "image": "assets/images/left-for-dead.jpg",
+    "rating": 4,
+    "downloads": 60,
+    "comingSoon": true
+  },
+  {
+    "title": "GTA IV (Grand Theft Auto IV)",
+    "description": "GTA IV es un juego de mundo abierto y acción en tercera persona que te sumerge en la vida del delincuente Niko Bellic mientras navegas por las calles peligrosas y corruptas de Liberty City. Participa en misiones, realiza robos, interactúa con personajes intrigantes y vive una experiencia de crimen y caos en la ciudad.",
+    "releaseDate": "Fecha de lanzamiento",
+    "image": "assets/images/gta.webp",
+    "rating": 4.6,
+    "downloads": 99,
+    "comingSoon": true
+  },
+  {
+    "title": "Crash Bandicoot",
+    "description": "Crash Bandicoot es un juego de plataformas que sigue las aventuras del famoso marsupial Crash mientras intenta detener los malvados planes del doctor Neo Cortex. Supera obstáculos, derrota enemigos y recolecta wumpas en una serie de niveles desafiantes y emocionantes.",
+    "releaseDate": "Fecha de lanzamiento",
+    "image": "assets/images/crash.jpeg",
+    "rating": 3,
+    "downloads": 50,
+    "comingSoon": true
+  }
+
+
+
+
+]
