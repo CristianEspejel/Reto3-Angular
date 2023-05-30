@@ -1,2 +1,9 @@
-
-<app-card *ngFor="let card of filteredCards" [card]="card"></app-card>
+<div class="card-container">
+  <div *ngFor="let card of filteredCards" class="card">
+    <img [src]="card.image" alt="Imagen del juego" />
+    <h2>{{ card.title }}</h2>
+    <p>{{ card.description }}</p>
+    <p>Fecha de lanzamiento: {{ card.releaseDate }}</p>
+    <p>Clasificación: {{ card.rating }}</p>
+  </div>
+</div>

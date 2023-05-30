@@ -42,15 +42,24 @@ export class RegistroComponent implements OnInit {
         password
       };
 
-      // Registrar el usuario
-      const registered = this.authService.register(user);
+      // Obtener la lista actual de usuarios desde localStorage
+      const usersString = localStorage.getItem('users');
+      const users: User[] = usersString ? JSON.parse(usersString) : [];
 
-      if (registered) {
+      // Verificar si el usuario ya existe
+      const userExists = users.some(u => u.email === email);
+
+      if (userExists) {
+        console.log('El usuario ya existe');
+      } else {
+        // Agregar el nuevo usuario a la lista
+        users.push(user);
+
+        // Guardar la lista actualizada en localStorage
+        localStorage.setItem('users', JSON.stringify(users));
+
         // Registro exitoso, redirigir al componente de inicio de sesión
         this.router.navigate(['/login']);
-      } else {
-        // Mostrar mensaje de error en el registro
-        console.log('El usuario ya existe');
       }
     }
   }

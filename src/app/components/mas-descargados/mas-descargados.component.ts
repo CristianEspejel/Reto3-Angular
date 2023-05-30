@@ -14,11 +14,13 @@ export class MasDescargadosComponent implements OnInit {
   constructor(private http: HttpClient) {}
 
   ngOnInit() {
-    // Obtener los datos de las tarjetas desde el archivo JSON
     this.http.get<Card[]>('assets/cards.json').subscribe(data => {
       this.cardsData = data;
-      // Filtrar las tarjetas con más de 100 descargas
-      this.filteredCards = this.cardsData.filter(card => card.downloads > 100);
+      this.filterCards();
     });
+  }
+
+  filterCards() {
+    this.filteredCards = this.cardsData.filter(card => card.downloads > 100);
   }
 }

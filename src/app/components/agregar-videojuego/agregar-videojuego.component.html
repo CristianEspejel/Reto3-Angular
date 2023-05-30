@@ -1,1 +1,35 @@
-<p>agregar-videojuego works!</p>
+<div class="container">
+  <h2>Agregar Nuevo Juego</h2>
+
+  <form [formGroup]="juegoForm" (ngSubmit)="agregarJuego()" class="form">
+    <div class="form-group">
+      <label for="titulo">Título:</label>
+      <input type="text" id="titulo" formControlName="titulo" class="form-control">
+    </div>
+    <div class="form-group">
+      <label for="calificacion">Calificación:</label>
+      <input type="text" id="calificacion" formControlName="calificacion" class="form-control">
+    </div>
+    <div class="form-group">
+      <label for="descripcion">Descripción:</label>
+      <textarea id="descripcion" formControlName="descripcion" class="form-control"></textarea>
+    </div>
+    <div class="form-group">
+      <label for="fechaLanzamiento">Fecha de Lanzamiento:</label>
+      <input type="date" id="fechaLanzamiento" formControlName="fechaLanzamiento" class="form-control">
+    </div>
+    <div class="form-group">
+      <label for="numDescargas">Número de Descargas:</label>
+      <input type="number" id="numDescargas" formControlName="numDescargas" class="form-control">
+    </div>
+    <div class="form-group">
+      <div class="form-check">
+        <input type="checkbox" id="proximamente" formControlName="proximamente" class="form-check-input">
+        <label class="form-check-label" for="proximamente">Próximamente</label>
+      </div>
+    </div>
+
+    <button type="submit" class="btn btn-primary">Agregar Juego</button>
+  </form>
+</div>
+

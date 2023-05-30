@@ -5,7 +5,7 @@ import { HomeComponent } from './home/home.component';
 import { MasPopularesComponent } from '../components/mas-populares/mas-populares.component';
 import { MasDescargadosComponent } from '../components/mas-descargados/mas-descargados.component';
 import { ProximamenteComponent } from '../components/proximamente/proximamente.component';
-import { AgregarVideojuegoComponent } from '../components/agregar-videojuego/agregar-videojuego.component';
+import { AgregarJuegoComponent } from '../components/agregar-videojuego/agregar-videojuego.component';
 
 const routes: Routes = [
   {
@@ -15,7 +15,7 @@ const routes: Routes = [
       { path: 'mas-populares', component: MasPopularesComponent },
       { path: 'mas-descargados', component: MasDescargadosComponent },
       { path: 'proximamente', component: ProximamenteComponent },
-      { path: 'agregar-videojuego', component: AgregarVideojuegoComponent },
+      { path: 'agregar-videojuego', component: AgregarJuegoComponent },
       { path: '', redirectTo: 'mas-populares', pathMatch: 'full' }
     ]
   }
