@@ -3,6 +3,7 @@
 <div class="container">
   <div class="row justify-content-center">
     <div class="col-md-6">
+      <button class="btn btn-link back-button" (click)="regresar()"><i class="fas fa-arrow-left"></i> Volver al Login</button>
       <h2>Registro</h2>
       <form [formGroup]="registroForm" (ngSubmit)="onSubmit()">
         <div class="form-group">
